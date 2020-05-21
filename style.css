@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Spartan&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&family=Spartan&display=swap');
+
+body{
+  background-color: #E8EAED;
+}
+
+h1, h2 {
+  font-family: 'Spartan', sans-serif;
+  color: #333333;
+  text-align: center;
+}
+
+p {
+  font-family: 'Nanum Gothic', sans-serif;
+  color: #333333;
+  font-size: 14;
+  text-align: center;
+  margin: 40px;
+}
+
+.card-white {
+  background-color: white;
+  padding: 50px;
+  margin: 50 auto;
+  box-shadow: 2px 2px 3px #C6CBD2;
+  border-radius: 5px;
+  text-align: center;
+  width: 700px;
+}
+
+ul{
+  text-decoration: none;
+}
+
+.picture-circle {
+  max-width: 25%;
+  height:auto;
+  border-radius: 50%;
+  box-shadow: 2px 2px 3px #E8EAED;
+}
+
+.button {
+  font-family: 'Spartan', sans-serif;
+  font-size: bold;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  background-color: #00D3BD;
+  padding: 8px 24px;
+  border-radius: 8px;
+}
+
+.inline-list-icons{
+  list-style: none;
+  padding: 0;
+}
+
+.inline-list-icons li {
+  display: inline-block;
+  font-size: 40px;
+  margin: 8px 16px;
+}
+
+.button:hover {
+  background-color: 009989;
+  box-shadow: 2px 2px 3px #E8EAED;
+}
+
+.fa-linkedin {
+  color: #00D3BD;
+}
+
+.fa-facebook-square {
+  color: #00D3BD;
+}
+
+.fa-instagram-square {
+  color: #00D3BD;
+}
+
+.fa-linkedin:hover {
+  color: 009989;
+}
+
+.fa-facebook-square:hover {
+  color: 009989;
+}
+
+.fa-instagram-square:hover {
+  color: 009989;
+}
+
+@media (max-width: 960px) {
+  .card-white {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  .card-white {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  .card-white {
+    width: 300px;
+  }
+}
+
+
+
+
+
+
+
+
+
